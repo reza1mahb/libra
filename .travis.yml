@@ -6,7 +6,7 @@ cache:
 jobs:
   include:
     - stage: check
-      rust: nightly-2019-07-19
+      rust: nightly-2019-02-25
       install:
         - rustup component add rustfmt
         - ci/cargo-try-install.sh cargo-audit
